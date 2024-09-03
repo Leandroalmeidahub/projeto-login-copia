@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de login e senha</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <main>
+
+        <div>
+            <h1>LOGIN</h1>
+
+            <form action="cadastro.php" method="post">
+                <p>
+                   <img id="login1" src="icon-login.png" alt="">
+                    <label for="login"></label>
+                    <input type="text" name="login" id="ilogin" minlength="8" maxlength="16" autocomplete="off" placeholder="Login">
+                </p>
+
+                <p>
+                    <img id="senha1" src="icon-senha.png" alt="">
+                    <label for="senha"></label>
+                    <input type="password" name="senha" id="isenha" minlength="5" maxlength="8" autocomplete="off" placeholder="Senha">
+                </p>
+
+                <p><input id="enviar" type="submit" value="Enviar"></p>
+            </form>
+
+        </div>
+
+    </main>
+    
+</body>
+</html>
